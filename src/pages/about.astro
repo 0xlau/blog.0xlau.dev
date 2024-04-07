@@ -1,7 +1,18 @@
 ---
-import LayoutDefault from "~/layouts/LayoutDefault.astro"
+import LayoutDefault from "~/layouts/LayoutDefault.astro";
 ---
 
 <LayoutDefault>
-  
+  <section contain-layout>
+    <div text-3xl mb-10 style="width: 100%">Todo</div>
+    <script
+      style="width: 100%"
+      src="https://utteranc.es/client.js"
+      repo="0xlau/blog.0xlau.dev"
+      issue-term="pathname"
+      label="comment"
+      theme="github-light"
+      crossorigin="anonymous"
+      async></script>
+  </section>
 </LayoutDefault>

@@ -14,27 +14,28 @@ declare namespace App {
       /** your locale */
       locale: string;
       /** theme style */
-      themeStyle: 'light'|'auto'|'dark';
+      themeStyle: "light" | "auto" | "dark";
       /** your socials */
       socials: Array<{
+        prefix?: string;
         name: string;
         href: string;
-      }>,
+      }>;
       /** your header info */
       header: Object<{
         twitter: String;
-      }>,
+      }>;
       /** your navigation links */
       navs: Array<{
         name: string;
         href: string;
-      }>,
+      }>;
       /** category mapping */
       category_map: Array<{
         name: string;
         path: string;
-      }>,
-    }
+      }>;
+    };
     translate: (key: string, param?: string | number) => string;
   }
 }

@@ -1,38 +1,47 @@
-export const THEME_CONFIG: App.Locals['config'] = {
+export const THEME_CONFIG: App.Locals["config"] = {
   /** blog title */
-  title: "活版印字",
+  title: "码农小易",
   /** your name */
-  author: "Typography",
+  author: "Timothy Lau",
   /** website description */
-  desc: "Rediscory the beauty of typography",
+  desc: "码农小易的博客 —— 技术解刨 & 日常分享",
   /** your deployed domain */
-  website: "https://astro-theme-typography.vercel.app/",
+  website: "https://0xlau.dev",
   /** your locale */
-  locale: "en-us",
+  locale: "zh-cn",
   /** theme style */
   themeStyle: "light",
   /** your socials */
   socials: [
     {
-      name: "github",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      prefix: "ri",
+      name: "github-fill",
+      href: "https://github.com/0xlau",
     },
     {
-      name: "rss",
+      prefix: "ri",
+      name: "rss-fill",
       href: "/atom.xml",
     },
     {
-      name: "twitter",
-      href: "https://github.com/moeyua/astro-theme-typography",
+      prefix: "ri",
+      name: "twitter-x-fill",
+      href: "https://x.com/thetimothylau",
     },
     {
-      name: "mastodon",
-      href: "https://github.com/moeyua/astro-theme-typography",
-    }
+      prefix: "ri",
+      name: "bilibili-fill",
+      href: "https://space.bilibili.com/393341686",
+    },
+    {
+      prefix: "ri",
+      name: "mail-fill",
+      href: "mailto:timothy-lau@outlook.com",
+    },
   ],
   /** your header info */
   header: {
-    twitter: "@moeyua13",
+    twitter: "@thetimothylau",
   },
   /** your navigation links */
   navs: [
@@ -46,7 +55,7 @@ export const THEME_CONFIG: App.Locals['config'] = {
     },
     {
       name: "Categories",
-      href: "/categories"
+      href: "/categories",
     },
     {
       name: "About",
@@ -54,8 +63,5 @@ export const THEME_CONFIG: App.Locals['config'] = {
     },
   ],
   /** your category name mapping, which the `path` will be shown in the url */
-  category_map: [
-    {name: "胡适", path: "hu-shi"},
-  ]
-}
-
+  category_map: [],
+};
