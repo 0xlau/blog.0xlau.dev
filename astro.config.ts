@@ -4,8 +4,6 @@ import { THEME_CONFIG } from "./src/theme.config";
 import robotsTxt from "astro-robots-txt";
 import sitemap from "@astrojs/sitemap";
 
-import linkPreview from "astro-link-preview"
-
 // https://astro.build/config
 export default defineConfig({
   site: THEME_CONFIG.website,
@@ -18,7 +16,6 @@ export default defineConfig({
     },
   },
   integrations: [
-    linkPreview(),
     UnoCSS({
       injectReset: true,
     }),

@@ -18,7 +18,6 @@
     "@astrojs/sitemap": "^3.0.5",
     "@github/clipboard-copy-element": "^1.3.0",
     "astro": "^4.5.9",
-    "astro-link-preview": "^0.3.4",
     "astro-robots-txt": "^1.0.0",
     "astro-seo": "^0.8.0",
     "typescript": "^5.3.3",
