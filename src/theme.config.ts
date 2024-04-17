@@ -38,6 +38,11 @@ export const THEME_CONFIG: App.Locals["config"] = {
       name: "mail-fill",
       href: "mailto:timothy-lau@outlook.com",
     },
+    {
+      prefix: "ri",
+      name: "file-user-fill",
+      href: "https://cv.0xlau.dev",
+    },
   ],
   /** your header info */
   header: {
